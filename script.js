@@ -202,9 +202,10 @@ function displayQuestion() {
         optionInput.type = "radio";
         optionInput.name = "option";
         optionInput.value = option;
+		optionInput.id = option;
         optionInput.checked = userAnswers[currentQuestion] === option;
         optionInput.onclick = () => selectOption(option);
-
+		optionLabel.setAttribute('for', optionInput.id);
         optionLabel.innerText = option;
         optionContainer.appendChild(optionInput);
         optionContainer.appendChild(optionLabel);
@@ -223,14 +224,17 @@ function displayQuestion() {
 		const buttonPanel = document.getElementById("questionControl");
 		const openPictureButton = document.createElement("button");
 		const closePictureButton = document.createElement("button");
+		const br = document.createElement("br");
 		
 		pictureFrame.id = "pictureFrame";
 		picture.src = questionData.img;
 		body.appendChild(pictureFrame);
-		pictureFrame.appendChild(pictureIMG);
-		openPictureButton.onclick = "openPicture()";
-		closePictureButton.onclick = "closePicture()";
+		pictureFrame.appendChild(picture);
+		pictureFrame.appendChild(br);
+		openPictureButton.onclick = openPicture;
+		closePictureButton.onclick = closePicture;
 		closePictureButton.innerHTML = "Close";
+		openPictureButton.innerHTML = "Show Picture";
 		pictureFrame.appendChild(closePictureButton);
 		buttonPanel.appendChild(openPictureButton);
 	}
