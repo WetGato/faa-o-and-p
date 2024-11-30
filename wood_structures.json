@@ -30,5 +30,55 @@
 		"question": "What specie of wood is used as a standard for strength?",
 		"options": ["Spruce", "Pine", "Oak"],
 		"answer": "Spruce"
-	}
+	},
+	{
+		"question": "Are hard knots acceptable?",
+		"options": [
+			"Yes, within the specified limits",
+			"Yes, always",
+			"No, never"
+		],
+		"answer": "Yes, within the specified limits"
+	},
+	{
+		"question": "Why is compression wood NOT acceptable?",
+		"options": [
+			"It is very prejudicial to strength",
+			"It is too strong",
+			"It is susceptible to dry rot"
+		],
+		"answer": "It is very prejudicial to strength"
+	},
+	{
+		"question": "When are mineral streaks acceptable?",
+		"options": [
+			"If the inspection fails to reveal any decay",
+			"When the inspection reveals decay",
+			"When the wood is wet"
+		],
+		"answer": "If the inspection fails to reveal any decay"
+	},
+	{
+		"question": "Why is it necessary to examine all stains and discolouration?",
+		"options": [
+			"To determine if the stains are harmless, preliminary, or advanced decay",
+			"To determine if the stains are caused by fuel, oil, or hydraulic fluid",
+			"To determine if the stains are oil based, or latex paint"
+		],
+		"answer": "To determine if the stains are harmless, preliminary, or advanced decay"
+	},
+	{
+		"question": "What types of glues are used in aircraft wood structure repair?",
+		"options": [
+			"Casein, Epoxies, Phenol-formaldehyde, and Resorcinol Glue",
+			"School Glue, Epoxy, White Glue, and Liquid Nails",
+			"Glue is not used, only nails"
+		],
+		"answer": "Casein, Epoxies, Phenol-formaldehyde, and Resorcinol Glue"
+	},
+	{
+		"question": "What type of glue may have been used in OLDER AIRCRAFT construction that requires careful inspection to detect deterioration?",
+		"options": ["Casein Glue", "Epoxy", "Phenol-formaldehyde"],
+		"answer": "Casein Glue"
+	}	
 ]
