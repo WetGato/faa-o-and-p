@@ -25,5 +25,10 @@
 			"Running the wood through a lamination machine"
 		],
 		"answer": "Two or more layers glued together with the grain of all layers approximately parallel"
+	},
+	{
+		"question": "What specie of wood is used as a standard for strength?",
+		"options": ["Spruce", "Pine", "Oak"],
+		"answer": "Spruce"
 	}
 ]
