@@ -3,10 +3,27 @@
 		"question": "How would you inspect for rot (decay)?",
 		"options": [
 			"Inspect for a dark discolouration of the wood surface or gray stains along the grain.",
-			"Look for signs of termintes.",
+			"Look for signs of termites.",
 			"Apply a coating of oil and look for where it turns blue"
-			],
-		"answer": "Inspect for a dark discolouration of the wood surface or gray stains along the grain.",
-		"img": "https://2793236.fs1.hubspotusercontent-na1.net/hub/2793236/hubfs/Stock-images-118.png"
+		],
+		"answer": "Inspect for a dark discolouration of the wood surface or gray stains along the grain."
+	},
+	{
+		"question": "What three forms of wood are used in aircraft?",
+		"options": [
+			"Solid, Laminated, and Plywood",
+			"Square, Sheet, and Paper",
+			"Particle board, Orientated Strand Board, and Composite"
+		],
+		"answer": "Solid, Laminated, and Plywood"
+	},
+	{
+		"question": "What is a laminated wood assembly?",
+		"options": [
+			"Two or more layers glued together with the grain of all layers approximately parallel",
+			"Two or more layers glues together with the grain of all layers approximately perpendicular",
+			"Running the wood through a lamination machine"
+		],
+		"answer": "Two or more layers glued together with the grain of all layers approximately parallel"
 	}
 ]
