@@ -19,6 +19,9 @@
             overflow: hidden;
             box-sizing: border-box;
         }
+		img {
+			width: 33VH;
+		}
         #sidePane {
             width: 225px;
             background-color: #f4f4f4;
@@ -61,6 +64,11 @@
                 height: auto;
                 flex: none/* Position main content above sidebar */
             }
+			#pictureFrame {
+				width: calc(100vw - 30px);
+			}
+			img {
+				width: calc(100vw - 40px);
         }
     </style>
 </head>
@@ -73,11 +81,13 @@
         <h1 id="title">Select a Quiz</h1>
         <p id="question"></p>
         <form id="optionsForm"></form>
+		<div id="questionControl">
         <button onclick="toggleFlag()">Flag/Unflag</button>
         <button onclick="prevQuestion()">Previous</button>
         <button onclick="nextQuestion()">Next</button>
-        <button onclick="gradeQuiz()">Grade Quiz</button>
+		</div>
 		<br>
+        <button onclick="gradeQuiz()">Grade Quiz</button>
 		<button onclick="collectAndLoadQuestions()">Restart Quiz</button>
 		<button onclick="openDialog()">Start a New Quiz</button>
         <p id="scoreDisplay"></p>
