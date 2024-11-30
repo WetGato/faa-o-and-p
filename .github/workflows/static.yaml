@@ -1,0 +1,52 @@
+name: Deploy static content to Pages
+
+on:
+  # Runs on pushes targeting both the main and dev branches
+  push:
+    branches:
+      - "main"
+      - "dev"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy_main:
+    # Job to deploy `main` branch to the root (`/`)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Checkout dev branch
+        uses: actions/checkout@v4
+        with:
+          ref: dev
+          path: dev
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact for main branch
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'  # Upload entire repository (main branch)
+          name: 'main-artifact'  # Unique artifact name for main branch
+
+      - name: Deploy to GitHub Pages (Main)
+        id: deployment_main
+        uses: actions/deploy-pages@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifact_name: 'main-artifact'
