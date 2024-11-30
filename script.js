@@ -15,6 +15,16 @@ function openDialog() {
 	dialog.showModal();
 }
 
+function closePicture() {
+	const dialog = document.getElementById("pictureFrame");
+	dialog.close();
+};
+
+function openPicture() {
+	const dialog = document.getElementById("pictureFrame");
+	dialog.showModal();
+}
+
 function loadSelectedJsonFile() {  // Get the user selection in the drop-down menu for selection of the group
     const dropdown = document.getElementById("quizDropdown");
     const selectedFile = dropdown.value;
@@ -40,17 +50,17 @@ function selectSections(file) {  //Load the file for selections and populate the
 				const div = document.createElement("div");
 				div.id = file.title;
 				listItem.appendChild(div);
-				const dropdown = document.getElementById(file.title);
-                const checkbox = document.createElement("input");
-                checkbox.value = file.file;
-				checkbox.id = file.file;
-				checkbox.type = "checkbox";
-                checkbox.innerText = file.title;
-                dropdown.appendChild(checkbox);
-				const text = document.createElement("label");
-				text.for = file.file;
-				text.innerText = file.title;
-				dropdown.appendChild(text);
+				const subCategoryForm = document.getElementById(file.title);
+                const subCategory = document.createElement("input");
+                subCategory.value = file.file;
+				subCategory.id = file.file;
+				subCategory.type = "checkbox";
+                subCategory.innerText = file.title;
+                subCategoryForm.appendChild(subCategory);
+				const subCategoryLabel = document.createElement("label");
+				subCategoryLabel.for = file.file;
+				subCategoryLabel.innerText = file.title;
+				subCategoryForm.appendChild(subCategoryLabel);
             });
         })
         .catch(error => {
@@ -78,10 +88,10 @@ function loadIndex() {  // Load index.json file then populate the dropdown
             const files = data.files;
             const dropdown = document.getElementById("quizDropdown");
             files.forEach(file => {
-                const option = document.createElement("option");
-                option.value = file.file;
-                option.innerText = file.title;
-                dropdown.appendChild(option);
+                const category = document.createElement("option");
+                category.value = file.file;
+                category.innerText = file.title;
+                dropdown.appendChild(category);
             });
         })
         .catch(error => {
@@ -101,26 +111,6 @@ function toggleFlag() {
     setCookie("flaggedQuestions", JSON.stringify(flaggedQuestions), 7);
     renderQuestionList();
 }
-
-/*function loadQuestions(file) {     //TODO add capability to handle multiple files.
-	console.log (file);
-    fetch(file)
-        .then(response => response.json())
-        .then(data => {
-            questions = data;
-            shuffleArray(questions);
-			questions.forEach(question => {
-                shuffleArray(question.options);
-            });
-            renderQuestionList();
-            displayQuestion();
-            document.getElementById("scoreDisplay").innerText = `Score: Not graded yet`;
-        })
-        .catch(error => {
-            console.error("Error loading questions file:", error);
-        });
-}
-*/
 
 function loadQuestions(files) {
     console.log("Loading files:", files);
@@ -200,6 +190,7 @@ function displayQuestion() {
     const questionData = questions[currentQuestion];
     const questionElement = document.getElementById("question");
     const optionsForm = document.getElementById("optionsForm");
+	
 
     questionElement.innerText = questionData.question;
     optionsForm.innerHTML = ""; // Clear previous options
@@ -207,25 +198,42 @@ function displayQuestion() {
     questionData.options.forEach(option => {
         const optionContainer = document.createElement("div");
         const optionInput = document.createElement("input");
+		const optionLabel = document.createElement("label");
         optionInput.type = "radio";
         optionInput.name = "option";
         optionInput.value = option;
         optionInput.checked = userAnswers[currentQuestion] === option;
-
         optionInput.onclick = () => selectOption(option);
 
-        const optionLabel = document.createElement("label");
         optionLabel.innerText = option;
         optionContainer.appendChild(optionInput);
         optionContainer.appendChild(optionLabel);
         optionsForm.appendChild(optionContainer);
 		
-		        if (quizGraded && option === questions[currentQuestion].answer) {
-            optionLabel.style.color = "green";
-            optionLabel.style.fontWeight = "bold"; // Optional: Bold the correct answer
+		if (quizGraded && option === questions[currentQuestion].answer) {
+			optionLabel.style.color = "green";
+			optionLabel.style.fontWeight = "bold"; // Optional: Bold the correct answer
         }
     });
 	
+	if (questionData.img) {
+		const body = document.body;
+		const pictureFrame = document.createElement("dialog")
+		const picture = document.createElement("img");
+		const buttonPanel = document.getElementById("questionControl");
+		const openPictureButton = document.createElement("button");
+		const closePictureButton = document.createElement("button");
+		
+		pictureFrame.id = "pictureFrame";
+		picture.src = questionData.img;
+		body.appendChild(pictureFrame);
+		pictureFrame.appendChild(pictureIMG);
+		openPictureButton.onclick = "openPicture()";
+		closePictureButton.onclick = "closePicture()";
+		closePictureButton.innerHTML = "Close";
+		pictureFrame.appendChild(closePictureButton);
+		buttonPanel.appendChild(openPictureButton);
+	}
 	
 }
 
