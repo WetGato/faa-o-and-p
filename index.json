@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "title": "General",
+      "file": "general.json"
+    },
+	{
+		"title": "Powerplant",
+		"file": "powerplant.json"
+	},
+	{
+		"title": "Airframe",
+		"file": "airframe.json"
+	}
+  ]
+}

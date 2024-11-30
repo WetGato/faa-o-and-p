@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title>Airframe Electrical Review</title>
+    <style>
+        body {
+            display: flex;
+            font-family: Arial, sans-serif;
+            flex-flow: row wrap;
+            margin: 0;
+            overflow: hidden;
+            height: 100vh;
+            height: calc(var(--vh, 1vh) * 100);
+            box-sizing: border-box;
+        }
+        html {
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+        #sidePane {
+            width: 225px;
+            background-color: #f4f4f4;
+			padding-left: 8px;
+            border-right: 1px solid #ddd;
+            overflow-y: auto;
+            height: 100vh;
+            height: calc(var(--vh, 1vh) * 100);
+            box-sizing: border-box;
+        }
+        #quizContainer {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            height: 100vh;
+            height: calc(var(--vh, 1vh) * 100);
+            box-sizing: border-box;
+        }
+        .flagged {
+            color: red;
+        }
+        @media (max-width: 600px) {
+            body {
+                display: flex;
+                flex-flow: column;
+                box-sizing: border-box;
+            }
+            #sidePane {
+                width: 100%; /* Full width when stacked */
+                order: 2;
+                padding-left: 15px;
+                padding-bottom: 30px;
+                padding-top: 15px;
+                height: calc(100vh - 45px);
+                box-sizing: border-box;
+            }
+            #quizContainer {
+                width: auto; /* Full width when stacked */
+                order: 1;
+                height: auto;
+                flex: none/* Position main content above sidebar */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="sidePane">
+        <h2>Questions</h2>
+        <ul id="questionList"></ul>
+    </div>
+    <div id="quizContainer">
+        <h1 id="title">Select a Quiz</h1>
+        <p id="question"></p>
+        <form id="optionsForm"></form>
+        <button onclick="toggleFlag()">Flag/Unflag</button>
+        <button onclick="prevQuestion()">Previous</button>
+        <button onclick="nextQuestion()">Next</button>
+        <button onclick="gradeQuiz()">Grade Quiz</button>
+		<br>
+		<button onclick="collectAndLoadQuestions()">Restart Quiz</button>
+		<button onclick="openDialog()">Start a New Quiz</button>
+        <p id="scoreDisplay"></p>
+    </div>
+	<dialog id="dialog">
+		<select id="quizDropdown" onchange="loadSelectedJsonFile()">
+            <option value="">Select a Question File</option>
+            <!-- Options will be populated here dynamically -->
+        </select>
+		<form id="list">
+		</form>
+		<button id="closeDialog" onclick="closeDialog()">Close</button>
+		<button onclick="collectAndLoadQuestions()">Submit</button>
+	</dialog>
+    <script src="script.js"></script>
+</body>
+</html>
