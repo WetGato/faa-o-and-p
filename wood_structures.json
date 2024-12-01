@@ -175,5 +175,60 @@
 			"Gusset Plates and Windows"
 		],
 		"answer": "Gusset Plates and Aircraft Skin"
+	},
+	{
+		"question": "Provide examples of at least three types of aircraft skin repair.",
+		"options": [
+			"Scarf, Surface, Plug, and Splayed and Scarfed Patches",
+			"Scarf, Plug, Sand Smooth",
+			"Sand Smooth, Paper Over, Paint"
+		],
+		"answer": "Scarf, Surface, Plug, and Splayed and Scarfed Patches"
+	},
+	{
+		"question": "What type of patch should be used to repair small holes in thin plywood skin if the skin is less than 1/10 inch thick?",
+		"options": ["A splayed patch", "Paint over", "Paper over"],
+		"answer": "A splayed patch"
+	},
+	{
+		"question": "Why must the bevelled cut be accurate on both pieces of wood being repaired with a scarfed joint?",
+		"options": [
+			"The pieces must match exactly to ensure a tight glue joint",
+			"The pieces must match exactly to ensure a windproof joint",
+			"The pieces must match exactly to ensure a waterproof joint"
+		],
+		"answer": "The pieces must match exactly to ensure a tight glue joint"
+	},
+	{
+		"question": "Name at least three different types of defects found in wood.",
+		"options": [
+			"Knots, Checks, Decay, Splits, Pitch Pockets, Curly Grain, Cross Grain, and Dry Rot",
+			"Paint, Stain, Insects, Dry Rot, Decay, Splits, and Knots",
+			"Paint, Hair, Gray, Sun Worn, Peeling Paint"
+		],
+		"answer": "Knots, Checks, Decay, Splits, Pitch Pockets, Curly Grain, Cross Grain, and Dry Rot"
+	},
+	{
+		"question": "Why should the various pieces or wood be kept at room temperature for at least 24 hours prior to joining?",
+		"options": [
+			"To allow the moisture content to equalize, minimizing the dimensional changes in the wood",
+			"To allow the moisture content to equalize, minimizing splitting",
+			"To allow the temperature to equalize, minimizing the dimensional changes in the wood"
+		],
+		"answer": "To allow the moisture content to equalize, minimizing the dimensional changes in the wood"
+	},
+	{
+		"question": "What is the maximum number of splices that should be made in any one spar?",
+		"options": ["Two", "Six", "Spars should not be spliced"],
+		"answer": "Two"
+	},
+	{
+		"question": "Always splice and reinforce plywood webs with what type of wood?"
+		"options": [
+			"The same type of plywood as the original",
+			"Oak",
+			"Spruce"
+		],
+		"answer": "The same type of plywood as the original"
 	}
 ]
