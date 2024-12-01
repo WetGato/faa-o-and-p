@@ -127,12 +127,53 @@
 		"answer": "Remove the damaged section and splice in a new section or replace the entire spar"
 	},
 	{
-		"question": "Describe the charcteristics of a scarf joint.",
+		"question": "Describe the characteristics of a scarf joint.",
 		"options": [
-			"The pieces to be joined are tapered or beveled to a slope of 1 to 10 or 1 to 12",
-			"The pieces to be joined are tapered or beveled to a slope of 1 to 20 or 1 to 24",
-			"The pieces to be joined are tapered or beveled to a slope of 10 to 1 or 12 to 1"
+			"The pieces to be joined are tapered or bevelled to a slope of 1 to 10 or 1 to 12",
+			"The pieces to be joined are tapered or bevelled to a slope of 1 to 20 or 1 to 24",
+			"The pieces to be joined are tapered or bevelled to a slope of 10 to 1 or 12 to 1"
 		],
-		"answer": "The pieces to be joined are tapered or beveled to a slope of 1 to 10 or 1 to 12"
+		"answer": "The pieces to be joined are tapered or bevelled to a slope of 1 to 10 or 1 to 12"
+	},
+	{
+		"question": "What are the results of insufficient gluing pressure?",
+		"options": [
+			"Thick glue and a weak joint",
+			"Thin glue and a strong joint",
+			"Thin glue and a weak joint"
+		],
+		"answer": "Thick glue and a weak joint"
+	},
+	{
+		"question": "What methods are used to apply pressure to wood glue joints?",
+		"options": [
+			"Clamps, Brads, Nails, Elastic Straps, Weight, Vacuum Bags, Screws, and Electric and Hydraulic power presses",
+			"Air Compressor",
+			"Stress"
+		],
+		"answer": "Clamps, Brads, Nails, Elastic Straps, Weight, Vacuum Bags, Screws, and Electric and Hydraulic power presses"
+	},
+	{
+		"question": "What type of joint is used in splicing structural members?",
+		"options": ["A scarf joint", "It is never acceptable to splice structural members", "A butt joint"],
+		"answer": "A scarf joint"
+	},
+	{
+		"question": "What areas of a wood spar may NOT be spliced?",
+		"options": [
+			"Under a wing attachment, landing gear, engine mount, and lift strut fittings",
+			"Anywhere structural",
+			"Around the windows"
+		],
+		"answer": "Under a wing attachment, landing gear, engine mount, and lift strut fittings"
+	},
+	{
+		"question": "What are the two primary uses for plywood in aircraft construction?",
+		"options": [
+			"Gusset Plates and Aircraft Skin",
+			"Aircraft Skin and Windows",
+			"Gusset Plates and Windows"
+		],
+		"answer": "Gusset Plates and Aircraft Skin"
 	}
 ]
