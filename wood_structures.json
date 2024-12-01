@@ -80,5 +80,59 @@
 		"question": "What type of glue may have been used in OLDER AIRCRAFT construction that requires careful inspection to detect deterioration?",
 		"options": ["Casein Glue", "Epoxy", "Phenol-formaldehyde"],
 		"answer": "Casein Glue"
-	}	
+	},
+	{
+		"question": "What types of glue are used in MODERN AIRCRAFT wood structure repair?",
+		"options": [
+			"Resorcinol glue, Phenol-formaldehyde glue, and Epoxy resin glue",
+			"School glue, Epoxy Resin, and Casein",
+			"Resorcinol glue, Phenol-formaldehyde glue, and Casein"
+		],
+		"answer": "Resorcinol glue, Phenol-formaldehyde glue, and Epoxy resin glue"
+	},
+	{
+		"question": "What is the minium °F for curing wood joints with resin glue?",
+		"options": [
+			"70°F or as specified by the glue manufacturer",
+			"0°F or as specified by the glue manufacturer",
+			"100°C or as specified by the glue manufacturer"
+		],
+		"answer": "70°F or as specified by the glue manufacturer"
+	},
+	{
+		"question": "Why is it important to consider the open-assembly time when gluing wooden structures?",
+		"options": [
+			"Because if the maximum open-assembly time is exceeded the joint may fail since the glue may begin setting up before the joint is assembled",
+			"Because if the maximum open-assembly time is exceeded the glue will leach into the surrounding wood and stain the surface",
+			"Because if the maximum open-assembly time isn't exceeded the joint will fail as the glue didn't have enough time to cure"
+		],
+		"answer": "Because if the maximum open-assembly time is exceeded the joint may fail since the glue may begin setting up before the joint is assembled"
+	},
+	{
+		"question": "Why is it important to apply the proper clamping pressure to a glue joint?",
+		"options": [
+			"Clamping forces the air out, brings the wood surfaces together evenly and in part responsible for the strength of the glue line",
+			"To prevent the wood from splitting",
+			"To ensure the wood is not compressed"
+		],
+		"answer": "Clamping forces the air out, brings the wood surfaces together evenly and in part responsible for the strength of the glue line"
+	},
+	{
+		"question": "Describe the acceptable methods used to repair elongated bolt holes found in a wooden wing spar?",
+		"options": [
+			"Remove the damaged section and splice in a new section or replace the entire spar",
+			"Fill the holes with resin and redrill the holes",
+			"Drill the hole bigger and use a bigger bolt"
+		],
+		"answer": "Remove the damaged section and splice in a new section or replace the entire spar"
+	},
+	{
+		"question": "Describe the charcteristics of a scarf joint.",
+		"options": [
+			"The pieces to be joined are tapered or beveled to a slope of 1 to 10 or 1 to 12",
+			"The pieces to be joined are tapered or beveled to a slope of 1 to 20 or 1 to 24",
+			"The pieces to be joined are tapered or beveled to a slope of 10 to 1 or 12 to 1"
+		],
+		"answer": "The pieces to be joined are tapered or beveled to a slope of 1 to 10 or 1 to 12"
+	}
 ]
