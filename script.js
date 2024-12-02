@@ -172,7 +172,6 @@ function renderQuestionList() {
             listItem.style.fontWeight =  "bold";
         }
         if (quizGraded) {
-			console.log(quizGraded);
             const isCorrect = userAnswers[index] === question.answer;
             listItem.style.color = isCorrect ? "green" : "red";
             listItem.innerText += isCorrect ? " ✅" : " ❌";
