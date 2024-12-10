@@ -3,10 +3,323 @@
 		"question": "How would you inspect for rot (decay)?",
 		"options": [
 			"Inspect for a dark discolouration of the wood surface or gray stains along the grain.",
-			"Look for signs of termintes.",
+			"Look for signs of termites.",
 			"Apply a coating of oil and look for where it turns blue"
-			],
-		"answer": "Inspect for a dark discolouration of the wood surface or gray stains along the grain.",
-		"img": "https://2793236.fs1.hubspotusercontent-na1.net/hub/2793236/hubfs/Stock-images-118.png"
+		],
+		"answer": "Inspect for a dark discolouration of the wood surface or gray stains along the grain."
+	},
+	{
+		"question": "What three forms of wood are used in aircraft?",
+		"options": [
+			"Solid, Laminated, and Plywood",
+			"Square, Sheet, and Paper",
+			"Particle board, Orientated Strand Board, and Composite"
+		],
+		"answer": "Solid, Laminated, and Plywood"
+	},
+	{
+		"question": "What is a laminated wood assembly?",
+		"options": [
+			"Two or more layers glued together with the grain of all layers approximately parallel",
+			"Two or more layers glues together with the grain of all layers approximately perpendicular",
+			"Running the wood through a lamination machine"
+		],
+		"answer": "Two or more layers glued together with the grain of all layers approximately parallel"
+	},
+	{
+		"question": "What specie of wood is used as a standard for strength?",
+		"options": ["Spruce", "Pine", "Oak"],
+		"answer": "Spruce"
+	},
+	{
+		"question": "Are hard knots acceptable?",
+		"options": [
+			"Yes, within the specified limits",
+			"Yes, always",
+			"No, never"
+		],
+		"answer": "Yes, within the specified limits"
+	},
+	{
+		"question": "Why is compression wood NOT acceptable?",
+		"options": [
+			"It is very prejudicial to strength",
+			"It is too strong",
+			"It is susceptible to dry rot"
+		],
+		"answer": "It is very prejudicial to strength"
+	},
+	{
+		"question": "When are mineral streaks acceptable?",
+		"options": [
+			"If the inspection fails to reveal any decay",
+			"When the inspection reveals decay",
+			"When the wood is wet"
+		],
+		"answer": "If the inspection fails to reveal any decay"
+	},
+	{
+		"question": "Why is it necessary to examine all stains and discolouration?",
+		"options": [
+			"To determine if the stains are harmless, preliminary, or advanced decay",
+			"To determine if the stains are caused by fuel, oil, or hydraulic fluid",
+			"To determine if the stains are oil based, or latex paint"
+		],
+		"answer": "To determine if the stains are harmless, preliminary, or advanced decay"
+	},
+	{
+		"question": "What types of glues are used in aircraft wood structure repair?",
+		"options": [
+			"Casein, Epoxies, Phenol-formaldehyde, and Resorcinol Glue",
+			"School Glue, Epoxy, White Glue, and Liquid Nails",
+			"Glue is not used, only nails"
+		],
+		"answer": "Casein, Epoxies, Phenol-formaldehyde, and Resorcinol Glue"
+	},
+	{
+		"question": "What type of glue may have been used in OLDER AIRCRAFT construction that requires careful inspection to detect deterioration?",
+		"options": ["Casein Glue", "Epoxy", "Phenol-formaldehyde"],
+		"answer": "Casein Glue"
+	},
+	{
+		"question": "What types of glue are used in MODERN AIRCRAFT wood structure repair?",
+		"options": [
+			"Resorcinol glue, Phenol-formaldehyde glue, and Epoxy resin glue",
+			"School glue, Epoxy Resin, and Casein",
+			"Resorcinol glue, Phenol-formaldehyde glue, and Casein"
+		],
+		"answer": "Resorcinol glue, Phenol-formaldehyde glue, and Epoxy resin glue"
+	},
+	{
+		"question": "What is the minium °F for curing wood joints with resin glue?",
+		"options": [
+			"70°F or as specified by the glue manufacturer",
+			"0°F or as specified by the glue manufacturer",
+			"100°C or as specified by the glue manufacturer"
+		],
+		"answer": "70°F or as specified by the glue manufacturer"
+	},
+	{
+		"question": "Why is it important to consider the open-assembly time when gluing wooden structures?",
+		"options": [
+			"Because if the maximum open-assembly time is exceeded the joint may fail since the glue may begin setting up before the joint is assembled",
+			"Because if the maximum open-assembly time is exceeded the glue will leach into the surrounding wood and stain the surface",
+			"Because if the maximum open-assembly time isn't exceeded the joint will fail as the glue didn't have enough time to cure"
+		],
+		"answer": "Because if the maximum open-assembly time is exceeded the joint may fail since the glue may begin setting up before the joint is assembled"
+	},
+	{
+		"question": "Why is it important to apply the proper clamping pressure to a glue joint?",
+		"options": [
+			"Clamping forces the air out, brings the wood surfaces together evenly and in part responsible for the strength of the glue line",
+			"To prevent the wood from splitting",
+			"To ensure the wood is not compressed"
+		],
+		"answer": "Clamping forces the air out, brings the wood surfaces together evenly and in part responsible for the strength of the glue line"
+	},
+	{
+		"question": "Describe the acceptable methods used to repair elongated bolt holes found in a wooden wing spar?",
+		"options": [
+			"Remove the damaged section and splice in a new section or replace the entire spar",
+			"Fill the holes with resin and redrill the holes",
+			"Drill the hole bigger and use a bigger bolt"
+		],
+		"answer": "Remove the damaged section and splice in a new section or replace the entire spar"
+	},
+	{
+		"question": "Describe the characteristics of a scarf joint.",
+		"options": [
+			"The pieces to be joined are tapered or bevelled to a slope of 1 to 10 or 1 to 12",
+			"The pieces to be joined are tapered or bevelled to a slope of 1 to 20 or 1 to 24",
+			"The pieces to be joined are tapered or bevelled to a slope of 10 to 1 or 12 to 1"
+		],
+		"answer": "The pieces to be joined are tapered or bevelled to a slope of 1 to 10 or 1 to 12"
+	},
+	{
+		"question": "What are the results of insufficient gluing pressure?",
+		"options": [
+			"Thick glue and a weak joint",
+			"Thin glue and a strong joint",
+			"Thin glue and a weak joint"
+		],
+		"answer": "Thick glue and a weak joint"
+	},
+	{
+		"question": "What methods are used to apply pressure to wood glue joints?",
+		"options": [
+			"Clamps, Brads, Nails, Elastic Straps, Weight, Vacuum Bags, Screws, and Electric and Hydraulic power presses",
+			"Air Compressor",
+			"Stress"
+		],
+		"answer": "Clamps, Brads, Nails, Elastic Straps, Weight, Vacuum Bags, Screws, and Electric and Hydraulic power presses"
+	},
+	{
+		"question": "What type of joint is used in splicing structural members?",
+		"options": ["A scarf joint", "It is never acceptable to splice structural members", "A butt joint"],
+		"answer": "A scarf joint"
+	},
+	{
+		"question": "What areas of a wood spar may NOT be spliced?",
+		"options": [
+			"Under a wing attachment, landing gear, engine mount, and lift strut fittings",
+			"Anywhere structural",
+			"Around the windows"
+		],
+		"answer": "Under a wing attachment, landing gear, engine mount, and lift strut fittings"
+	},
+	{
+		"question": "What are the two primary uses for plywood in aircraft construction?",
+		"options": [
+			"Gusset Plates and Aircraft Skin",
+			"Aircraft Skin and Windows",
+			"Gusset Plates and Windows"
+		],
+		"answer": "Gusset Plates and Aircraft Skin"
+	},
+	{
+		"question": "Provide examples of at least three types of aircraft skin repair.",
+		"options": [
+			"Scarf, Surface, Plug, and Splayed and Scarfed Patches",
+			"Scarf, Plug, Sand Smooth",
+			"Sand Smooth, Paper Over, Paint"
+		],
+		"answer": "Scarf, Surface, Plug, and Splayed and Scarfed Patches"
+	},
+	{
+		"question": "What type of patch should be used to repair small holes in thin plywood skin if the skin is less than 1/10 inch thick?",
+		"options": ["A splayed patch", "Paint over", "Paper over"],
+		"answer": "A splayed patch"
+	},
+	{
+		"question": "Why must the bevelled cut be accurate on both pieces of wood being repaired with a scarfed joint?",
+		"options": [
+			"The pieces must match exactly to ensure a tight glue joint",
+			"The pieces must match exactly to ensure a windproof joint",
+			"The pieces must match exactly to ensure a waterproof joint"
+		],
+		"answer": "The pieces must match exactly to ensure a tight glue joint"
+	},
+	{
+		"question": "Name at least three different types of defects found in wood.",
+		"options": [
+			"Knots, Checks, Decay, Splits, Pitch Pockets, Curly Grain, Cross Grain, and Dry Rot",
+			"Paint, Stain, Insects, Dry Rot, Decay, Splits, and Knots",
+			"Paint, Hair, Gray, Sun Worn, Peeling Paint"
+		],
+		"answer": "Knots, Checks, Decay, Splits, Pitch Pockets, Curly Grain, Cross Grain, and Dry Rot"
+	},
+	{
+		"question": "Why should the various pieces or wood be kept at room temperature for at least 24 hours prior to joining?",
+		"options": [
+			"To allow the moisture content to equalize, minimizing the dimensional changes in the wood",
+			"To allow the moisture content to equalize, minimizing splitting",
+			"To allow the temperature to equalize, minimizing the dimensional changes in the wood"
+		],
+		"answer": "To allow the moisture content to equalize, minimizing the dimensional changes in the wood"
+	},
+	{
+		"question": "What is the maximum number of splices that should be made in any one spar?",
+		"options": ["Two", "Six", "Spars should not be spliced"],
+		"answer": "Two"
+	},
+	{
+		"question": "Always splice and reinforce plywood webs with what type of wood?",
+		"options": [
+			"The same type of plywood as the original",
+			"Oak",
+			"Spruce"
+		],
+		"answer": "The same type of plywood as the original"
+	},
+	{
+		"question": "Why are light steel bushings sometimes used in wooden structures?",
+		"options": [
+			"To prevent crushing the wood when the bolts are tightened",
+			"To save weight",
+			"The light steel bushings are cheapest"
+		],
+		"answer": "To prevent crushing the wood when the bolts are tightened"
+	},
+	{
+		"question": "What is the purpose of large surface area washers when used on wooden structures",
+		"options": [
+			"To provide additional bearing area for hardware to help preclude damage to the wood when the hardware is tightened",
+			"To improve aerodynamic efficiency",
+			"To provide a more weather resistant seal to reduce the risk of decay"
+		],
+		"answer": "To provide additional bearing area for hardware to help preclude damage to the wood when the hardware is tightened"
+	},
+	{
+		"question": "What method will prevent a patch and a plywood pressure plate from adhering together due to extruding glue from the patch?",
+		"options": [
+			"The use of waxed paper or vinyl plastic between the patch and pressure plate",
+			"The use of water or oil between the patch and the pressure plate",
+			"The use of a mixture of sodium chloride and dihydrogen monoxide between the patch and pressure plate"
+		],
+		"answer": "The use of waxed paper or vinyl plastic between the patch and pressure plate"
+	},
+	{
+		"question": "Name several facings and core material used in bonded honeycomb structures interned for special applications.",
+		"options": [
+			"Stainless steel, Titanium, Plywood, Glass, Nylon, and cotton cloth",
+			"Oil, Polyurethane, Plastic, Silicon, Soda",
+			"Polyurethane, Silicon dioxide, Glass, ALuminum, Tin Foil"
+		],
+		"answer": "Stainless steel, Titanium, Plywood, Glass, Nylon, and cotton cloth"
+	},
+	{
+		"question": "Describe the construction of a bonded honeycomb structure",
+		"options": [
+			"It is a laminated structure that has a solid facing bonded to either side of a core consisting of open six-sided cells",
+			"It is two honeycombs bonded at 45 degrees",
+			"It is a laminated structure that has a solid facing bonded to either side of a core consisting of open eight-sided cells"
+		],
+		"answer": "It is a laminated structure that has a solid facing bonded to either side of a core consisting of open six-sided cells"
+	},
+	{
+		"question": "A drill bit is used for drilling composites should operate at approximately what speed?",
+		"options": ["20,000 RPM", "20 RPM", "200,000 RPM"],
+		"answer": "20,000 RPM"
+	},
+	{
+		"question": "What are the most common causes for delamination of a composite structure",
+		"options": [
+			"Sonic vibration, Expansion of internal moisture, liquid leakage, and manufacturing error",
+			"Heavy landing, Lightning strike, bird strike",
+			"The bees made the honeycomb weak"
+		],
+		"answer": "Sonic vibration, Expansion of internal moisture, liquid leakage, and manufacturing error"
+	},
+	{
+		"question": "What type of defect in, or damage to, a bonded honeycomb structure can be repaired using the potted repair method?",
+		"options": ["Filling a hole", "Repairing a crack", "Repairing delamination"],
+		"answer": "Filling a hole"
+	},
+	{
+		"question": "Name some factors that cause crazing in transparent plastic windows and wind-shields.",
+		"options": [
+			"Exposure to UV, stress, improper solvents, and improper handling",
+			"A crazy pilot flys the plane, a wasp lands on the window, and the aeroplane is stored in the hanger",
+			"The window gets too cold, someone touches the window, the window is cleaned with a dry microfibre"
+		],
+		"answer": "Exposure to UV, stress, improper solvents, and improper handling"
+	},
+	{
+		"question": "How should a hole be drilled in Plexiglass to avoid damage to the hole when the drill breaks through to the underside?",
+		"options": [
+			"Backup the plastic with a piece of wood and feed the drill slowly",
+			"Apply isopropyl alcohol to the back",
+			"Drill at a high speed with lots of force"
+		],
+		"answer": "Backup the plastic with a piece of wood and feed the drill slowly"
+	},
+	{
+		"question": "What should be done to twist drills that are to be used for drilling completely through Plexiglass?",
+		"options": [
+			"Drill free of burrs, drill angle of 150 degrees, feed the drill slowly",
+			"Drill as fast as possible, use methanol as a lubricant",
+			"Drill with a plastic drill bit"
+		],
+		"answer": "Drill free of burrs, drill angle of 150 degrees, feed the drill slowly"
 	}
 ]
