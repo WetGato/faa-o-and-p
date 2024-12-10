@@ -230,5 +230,96 @@
 			"Spruce"
 		],
 		"answer": "The same type of plywood as the original"
+	},
+	{
+		"question": "Why are light steel bushings sometimes used in wooden structures?",
+		"options": [
+			"To prevent crushing the wood when the bolts are tightened",
+			"To save weight",
+			"The light steel bushings are cheapest"
+		],
+		"answer": "To prevent crushing the wood when the bolts are tightened"
+	},
+	{
+		"question": "What is the purpose of large surface area washers when used on wooden structures",
+		"options": [
+			"To provide additional bearing area for hardware to help preclude damage to the wood when the hardware is tightened",
+			"To improve aerodynamic efficiency",
+			"To provide a more weather resistant seal to reduce the risk of decay"
+		],
+		"answer": "To provide additional bearing area for hardware to help preclude damage to the wood when the hardware is tightened"
+	},
+	{
+		"question": "What method will prevent a patch and a plywood pressure plate from adhering together due to extruding glue from the patch?",
+		"options": [
+			"The use of waxed paper or vinyl plastic between the patch and pressure plate",
+			"The use of water or oil between the patch and the pressure plate",
+			"The use of a mixture of sodium chloride and dihydrogen monoxide between the patch and pressure plate"
+		],
+		"answer": "The use of waxed paper or vinyl plastic between the patch and pressure plate"
+	},
+	{
+		"question": "Name several facings and core material used in bonded honeycomb structures interned for special applications.",
+		"options": [
+			"Stainless steel, Titanium, Plywood, Glass, Nylon, and cotton cloth",
+			"Oil, Polyurethane, Plastic, Silicon, Soda",
+			"Polyurethane, Silicon dioxide, Glass, ALuminum, Tin Foil"
+		],
+		"answer": "Stainless steel, Titanium, Plywood, Glass, Nylon, and cotton cloth"
+	},
+	{
+		"question": "Describe the construction of a bonded honeycomb structure",
+		"options": [
+			"It is a laminated structure that has a solid facing bonded to either side of a core consisting of open six-sided cells",
+			"It is two honeycombs bonded at 45 degrees",
+			"It is a laminated structure that has a solid facing bonded to either side of a core consisting of open eight-sided cells"
+		],
+		"answer": "It is a laminated structure that has a solid facing bonded to either side of a core consisting of open six-sided cells"
+	},
+	{
+		"question": "A drill bit is used for drilling composites should operate at approximately what speed?",
+		"options": ["20,000 RPM", "20 RPM", "200,000 RPM"],
+		"answer": "20,000 RPM"
+	},
+	{
+		"question": "What are the most common causes for delamination of a composite structure",
+		"options": [
+			"Sonic vibration, Expansion of internal moisture, liquid leakage, and manufacturing error",
+			"Heavy landing, Lightning strike, bird strike",
+			"The bees made the honeycomb weak"
+		],
+		"answer": "Sonic vibration, Expansion of internal moisture, liquid leakage, and manufacturing error"
+	},
+	{
+		"question": "What type of defect in, or damage to, a bonded honeycomb structure can be repaired using the potted repair method?",
+		"options": ["Filling a hole", "Repairing a crack", "Repairing delamination"],
+		"answer": "Filling a hole"
+	},
+	{
+		"question": "Name some factors that cause crazing in transparent plastic windows and wind-shields.",
+		"options": [
+			"Exposure to UV, stress, improper solvents, and improper handling",
+			"A crazy pilot flys the plane, a wasp lands on the window, and the aeroplane is stored in the hanger",
+			"The window gets too cold, someone touches the window, the window is cleaned with a dry microfibre"
+		],
+		"answer": "Exposure to UV, stress, improper solvents, and improper handling"
+	},
+	{
+		"question": "How should a hole be drilled in Plexiglass to avoid damage to the hole when the drill breaks through to the underside?",
+		"options": [
+			"Backup the plastic with a piece of wood and feed the drill slowly",
+			"Apply isopropyl alcohol to the back",
+			"Drill at a high speed with lots of force"
+		],
+		"answer": "Backup the plastic with a piece of wood and feed the drill slowly"
+	},
+	{
+		"question": "What should be done to twist drills that are to be used for drilling completely through Plexiglass?",
+		"options": [
+			"Drill free of burrs, drill angle of 150 degrees, feed the drill slowly",
+			"Drill as fast as possible, use methanol as a lubricant",
+			"Drill with a plastic drill bit"
+		],
+		"answer": "Drill free of burrs, drill angle of 150 degrees, feed the drill slowly"
 	}
 ]
