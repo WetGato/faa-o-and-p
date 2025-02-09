@@ -1,0 +1,39 @@
+[
+	{
+		"question": "What two types of fabric are used for covering aircraft?",
+		"options": [
+			"Organic and polyester synthetic",
+			"Aluminium and Stainless Steel",
+			"Cotton and Wool"
+		],
+		"answer": "Organic and polyester synthetic"
+	},
+	{
+		"question": "What are the organic fibers used for covering aircraft?",
+		"options": [
+			"Cotton and linen",
+			"Wool and cotton",
+			"Linen and wool"
+		],
+		"answer": "Cotton and linen"
+	},
+	{
+		"question": "What is the fabric warp?",
+		"options": [
+			"The direction along the length of the fabric",
+			"The direction across the length of the fabric",
+			"The direction along the width of the fabric"
+		],
+		"answer": "The direction along the length of the fabric"
+	},
+	{
+		"question": "What is a fabric salvage edge?",
+		"options": [
+			"An edge of the cloth woven to prevent unravelling",
+			"An edge of scrap that is used somewhere else",
+			"An edge that is cut off old fabric and reused"
+		],
+		"answer": "An edge of the cloth woven to prevent unravelling"
+	}
+	
+]

@@ -7,6 +7,10 @@
     {
       "title": "part2",
       "file": "part2.json"
-    }
+    },
+	{
+		"title": "Aircraft Coverings",
+		"file": "aircraft_coverings.json"
+	}
   ]
 }
